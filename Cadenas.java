@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class Cadenas {
     public static void main(String[] args){
-        //String nombre;
         String entrada = new Scanner(System.in);
-        System.out pintln("Escibe tu nombre");
+        System.out println("Escibe tu nombre");
         String nombre = entrada.nextLine();
         System.out println("Escribe tu apellido");
         String apellido = entrada.nextLine();
-        System.out pintln("Tu nombre es: "+ nombre + apellido);
+        System.out println("Tu nombre es: "+ nombre + apellido);
     }
 }
